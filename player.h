@@ -18,7 +18,7 @@ namespace Tmpl8
 			part[5].type = 3;
 		};
 
-		void Move(float dx, float dy);
+		void Move(int dx, int dy);
 		void DetachPart(int detachIndex);
 		void AttachPart(int attachIndex);
 		void DrawPlayer(Surface* gameScreen);

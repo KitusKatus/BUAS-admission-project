@@ -21,7 +21,7 @@ namespace Tmpl8
         }
     }
 
-    void Player::Move(float dx, float dy)
+    void Player::Move(int dx, int dy)
     {
         part[partIndex].x += dx; part[partIndex].y += dy;
     }
@@ -52,7 +52,7 @@ namespace Tmpl8
         }
     }
 
-    void Player::ControlPart(int sx, int sy, int key, Surface* gameScreen)
+    void Player::ControlPart(int sx, int sy, int key)
     {
 
         switch (part[partIndex].type)
