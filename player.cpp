@@ -52,8 +52,9 @@ namespace Tmpl8
         }
     }
 
-    void Player::ControlPart(int sx, int sy, int key)
+    void Player::ControlPart(int sx, int sy, int key, Surface* gameScreen)
     {
+
         switch (part[partIndex].type)
         {
         case 0: //torso
