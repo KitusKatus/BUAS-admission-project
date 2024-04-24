@@ -9,7 +9,6 @@
 
 namespace Tmpl8
 {
-	Player playerStart;
 	char currentLevel[18][96];
 	Surface tiles("assets/tiles.png");
 
@@ -46,7 +45,7 @@ namespace Tmpl8
 
 			bool startLimb[6] = { true, true, true, true, true, true };
 
-			playerStart.SpawnPlayer(100, 100, startLimb);
+			player.SpawnPlayer(100, 100, startLimb);
 			
 			char map[14][72] = {
 			"ia ia ia ia ia ia ia ia ia ia ia ia ia ia ia ia ia ia ia ia ia ia ia ia",

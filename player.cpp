@@ -1,4 +1,5 @@
 #include "surface.h"
+#include "levels.h"
 #include "windows.h"
 #include "player.h"
 #include <cstdio>
@@ -6,6 +7,7 @@
 
 namespace Tmpl8
 {
+    //Level level;
     bool hasLimb[6];
     int partIndex = 0;
     Sprite tank(new Surface("assets/ctankbase.tga"), 16);
@@ -54,6 +56,12 @@ namespace Tmpl8
 
     void Player::ControlPart(int sx, int sy, int key)
     {
+
+        //bool canWalk = level.CheckTile(part[partIndex].x + sx, part[partIndex].y + sy);
+        //if (canWalk)
+        //{
+        //
+        //}
 
         switch (part[partIndex].type)
         {

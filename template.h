@@ -11,8 +11,8 @@
 #include <cstdlib>
 #include <cstdio>
 
-constexpr int ScreenWidth = 90 * 16;
-constexpr int ScreenHeight = 90 * 9;
+constexpr int ScreenWidth = 60 * 24;
+constexpr int ScreenHeight = 60 * 14;
 // #define FULLSCREEN
 // #define ADVANCEDGL	// faster if your system supports it. Switches SDL2's texture buffer out for OpenGL texture buffer with mappings to CPU Memory. 
 

@@ -8,9 +8,12 @@ class Game
 public:
 	Game()
 	{
-		int currentPart = 0;
-		int mouseUp;
-		int keyDown;
+		mouseDown = 0;
+		mouseUp = 0;
+		mousex = 0;
+		mousey = 0;
+		keyDown = 0;
+		screen = nullptr;
 	}
 	void SetTarget( Surface* surface ) { screen = surface; }
 	void Init();
