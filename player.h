@@ -11,7 +11,7 @@ namespace Tmpl8
 		Player()
 		{
 			part[0].active = true;
-			//part[0].x, part[0].y = 0;
+			part[0].x = 200, part[0].y = 500;
 			part[0].type = 0;
 			part[1].type, part[2].type = 1;
 			part[3].type, part[4].type = 2;
@@ -32,7 +32,6 @@ namespace Tmpl8
 			char inventory;
 		};
 		partData part[10];
-		bool hasLimb[6];
 
 	};
 
